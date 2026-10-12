@@ -1,0 +1,11 @@
+experiment,model,hidden_neurons,activation,epochs,accuracy_type,accuracy_percent,correct,test_samples,notes
+moons,network,1,relu,500,evaluation,85.50,,,Fresh random evaluation dataset
+moons,network,3,relu,500,evaluation,88.50,,,Fresh random evaluation dataset
+moons,network,5,relu,500,evaluation,88.00,,,Fresh random evaluation dataset
+moons,network,30,relu,500,evaluation,95.00,,,Fresh random evaluation dataset
+moons,network,5,none,500,evaluation,87.50,,,Fresh random evaluation dataset
+moons,network,30,none,500,evaluation,85.50,,,Fresh random evaluation dataset
+images,linear,,relu,25,train,100.00,,,Last epoch
+images,linear,,relu,25,test,76.12,443,582,Original experiment
+images,cnn,,relu,25,train,100.00,,,Last epoch
+images,cnn,,relu,25,test,86.94,506,582,Original experiment
